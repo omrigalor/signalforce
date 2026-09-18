@@ -1,0 +1,3081 @@
+[
+  {
+    "id": "starter_suite",
+    "legacyId": "starter_suite",
+    "canonicalName": "Starter Suite",
+    "aliases": [],
+    "family": "Core CRM",
+    "persona": "Founder / Head of Operations",
+    "segments": [
+      "SMB"
+    ],
+    "legacyEdge": "Still running the pipeline out of spreadsheets and a shared inbox.",
+    "competitors": [
+      "hubspot free",
+      "pipedrive",
+      "spreadsheets",
+      "zoho"
+    ],
+    "drivers": [
+      [
+        "crm_absent",
+        2.6
+      ],
+      [
+        "hiring_crm_admin",
+        1.6
+      ],
+      [
+        "funding_recent",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.6
+      ],
+      [
+        "contract_renewal_window",
+        1.5
+      ],
+      [
+        "employee_growth",
+        1.4
+      ],
+      [
+        "competitor_crm",
+        1.4
+      ],
+      [
+        "sales_headcount",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "pro_suite",
+    "legacyId": "pro_suite",
+    "canonicalName": "Pro Suite",
+    "aliases": [],
+    "family": "Core CRM",
+    "persona": "Head of Sales / RevOps generalist",
+    "segments": [
+      "SMB",
+      "Mid-Market"
+    ],
+    "legacyEdge": "Outgrown the entry CRM: 20+ quota carriers and the first ops hire is in place.",
+    "competitors": [
+      "hubspot",
+      "pipedrive",
+      "zoho",
+      "freshsales"
+    ],
+    "drivers": [
+      [
+        "hiring_crm_admin",
+        2.0
+      ],
+      [
+        "crm_absent",
+        2.0
+      ],
+      [
+        "sales_headcount",
+        1.8
+      ],
+      [
+        "rfp_active",
+        1.6
+      ],
+      [
+        "contract_renewal_window",
+        1.5
+      ],
+      [
+        "competitor_crm",
+        1.4
+      ],
+      [
+        "funding_recent",
+        1.4
+      ],
+      [
+        "employee_growth",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "sales_cloud",
+    "legacyId": "sales_cloud",
+    "canonicalName": "Sales Cloud (Agentforce Sales)",
+    "aliases": [],
+    "family": "Core CRM",
+    "persona": "CRO / VP Sales Operations",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Sales headcount growing 30%+ against a CRM nobody trusts.",
+    "competitors": [
+      "hubspot",
+      "dynamics",
+      "zoho",
+      "pipedrive",
+      "sugarcrm"
+    ],
+    "drivers": [
+      [
+        "sales_headcount",
+        2.2
+      ],
+      [
+        "hiring_crm_admin",
+        2.0
+      ],
+      [
+        "crm_absent",
+        2.0
+      ],
+      [
+        "hiring_sales",
+        1.8
+      ],
+      [
+        "competitor_crm",
+        1.8
+      ],
+      [
+        "rfp_active",
+        1.6
+      ],
+      [
+        "contract_renewal_window",
+        1.5
+      ],
+      [
+        "exec_change",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "service_cloud",
+    "legacyId": "service_cloud",
+    "canonicalName": "Service Cloud (Agentforce Service)",
+    "aliases": [],
+    "family": "Service",
+    "persona": "VP Customer Service / Head of Support",
+    "segments": [
+      "SMB",
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Support headcount is outgrowing revenue and there is still no knowledge base.",
+    "competitors": [
+      "zendesk",
+      "freshdesk",
+      "intercom",
+      "servicenow",
+      "kustomer",
+      "gorgias"
+    ],
+    "drivers": [
+      [
+        "service_headcount",
+        2.4
+      ],
+      [
+        "service_intensity",
+        1.8
+      ],
+      [
+        "competitor_helpdesk",
+        1.8
+      ],
+      [
+        "hiring_support",
+        1.6
+      ],
+      [
+        "self_service_gap",
+        1.5
+      ],
+      [
+        "nps_pressure",
+        1.4
+      ],
+      [
+        "rfp_active",
+        1.4
+      ],
+      [
+        "customer_volume",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "agentforce_service",
+    "legacyId": "agentforce_service",
+    "canonicalName": "Agentforce (Service agents)",
+    "aliases": [],
+    "family": "Agentforce",
+    "persona": "VP Service / Chief AI Officer",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "They have announced an AI mandate but tier-1 support is still 100% human.",
+    "competitors": [
+      "microsoft copilot",
+      "servicenow ai",
+      "intercom fin",
+      "sierra",
+      "decagon",
+      "ada"
+    ],
+    "drivers": [
+      [
+        "ai_initiative",
+        2.4
+      ],
+      [
+        "existing_salesforce",
+        2.0
+      ],
+      [
+        "service_headcount",
+        2.0
+      ],
+      [
+        "hiring_ai",
+        1.8
+      ],
+      [
+        "automation_pressure",
+        1.8
+      ],
+      [
+        "ai_exec_hire",
+        1.6
+      ],
+      [
+        "renewal_window_sf",
+        1.6
+      ],
+      [
+        "customer_volume",
+        1.6
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "agentforce_sales",
+    "legacyId": "agentforce_sales",
+    "canonicalName": "Agentforce (SDR & Sales agents)",
+    "aliases": [],
+    "family": "Agentforce",
+    "persona": "CRO / VP Sales Ops",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Inbound leads arrive faster than the SDR team can work them.",
+    "competitors": [
+      "outreach ai",
+      "11x",
+      "clay",
+      "regie"
+    ],
+    "drivers": [
+      [
+        "ai_initiative",
+        2.2
+      ],
+      [
+        "existing_salesforce",
+        2.2
+      ],
+      [
+        "sales_headcount",
+        1.8
+      ],
+      [
+        "renewal_window_sf",
+        1.6
+      ],
+      [
+        "lead_volume",
+        1.6
+      ],
+      [
+        "foundations_enabled",
+        1.5
+      ],
+      [
+        "ai_exec_hire",
+        1.4
+      ],
+      [
+        "hiring_ai",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "agentforce_it",
+    "legacyId": "agentforce_it",
+    "canonicalName": "Agentforce IT Service",
+    "aliases": [],
+    "family": "Agentforce",
+    "persona": "CIO / Head of IT Service Desk",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Internal help-desk volume scales with headcount and nobody has deflected it.",
+    "competitors": [
+      "servicenow",
+      "jira service management",
+      "freshservice"
+    ],
+    "drivers": [
+      [
+        "it_headcount",
+        2.0
+      ],
+      [
+        "ai_initiative",
+        1.6
+      ],
+      [
+        "renewal_window_sf",
+        1.6
+      ],
+      [
+        "employees",
+        1.6
+      ],
+      [
+        "foundations_enabled",
+        1.5
+      ],
+      [
+        "ai_exec_hire",
+        1.4
+      ],
+      [
+        "automation_pressure",
+        1.4
+      ],
+      [
+        "existing_salesforce",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "agentforce_hr",
+    "legacyId": "agentforce_hr",
+    "canonicalName": "Agentforce HR Service",
+    "aliases": [],
+    "family": "Agentforce",
+    "persona": "CHRO / VP People Operations",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "HR shared services answering the same 40 questions for every new hire.",
+    "competitors": [
+      "workday",
+      "servicenow hr",
+      "bamboohr"
+    ],
+    "drivers": [
+      [
+        "employees",
+        2.2
+      ],
+      [
+        "renewal_window_sf",
+        1.6
+      ],
+      [
+        "distributed_workforce",
+        1.6
+      ],
+      [
+        "foundations_enabled",
+        1.5
+      ],
+      [
+        "ai_initiative",
+        1.4
+      ],
+      [
+        "ai_exec_hire",
+        1.4
+      ],
+      [
+        "hiring_rate",
+        1.4
+      ],
+      [
+        "hiring_ai",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "data_360",
+    "legacyId": "data_360",
+    "canonicalName": "Data 360 (formerly Data Cloud)",
+    "aliases": [],
+    "family": "Data",
+    "persona": "Chief Data Officer / VP Data & Analytics",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "A warehouse and a CRM that don't share a customer \u2014 the zero-copy wedge.",
+    "competitors": [
+      "snowflake",
+      "databricks",
+      "segment",
+      "mparticle",
+      "tealium",
+      "adobe experience platform"
+    ],
+    "drivers": [
+      [
+        "data_fragmentation",
+        2.4
+      ],
+      [
+        "snowflake_databricks",
+        2.0
+      ],
+      [
+        "ai_initiative",
+        2.0
+      ],
+      [
+        "multi_system",
+        1.8
+      ],
+      [
+        "existing_salesforce",
+        1.8
+      ],
+      [
+        "data_cloud_ready",
+        1.8
+      ],
+      [
+        "cdp_present",
+        1.6
+      ],
+      [
+        "hiring_data",
+        1.6
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "mc_growth",
+    "legacyId": "mc_growth",
+    "canonicalName": "Marketing Cloud Next \u2014 Growth",
+    "aliases": [],
+    "family": "Marketing",
+    "persona": "VP Marketing / Head of Marketing Ops",
+    "segments": [
+      "Mid-Market"
+    ],
+    "legacyEdge": "Runs Sales Cloud but sends every campaign from a tool that can't see the CRM.",
+    "competitors": [
+      "klaviyo",
+      "braze",
+      "hubspot",
+      "mailchimp",
+      "activecampaign"
+    ],
+    "drivers": [
+      [
+        "competitor_martech",
+        2.0
+      ],
+      [
+        "campaign_intensity",
+        1.8
+      ],
+      [
+        "marketing_headcount",
+        1.8
+      ],
+      [
+        "existing_salesforce",
+        1.6
+      ],
+      [
+        "message_volume",
+        1.5
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "ad_spend",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "mc_advanced",
+    "legacyId": "mc_advanced",
+    "canonicalName": "Marketing Cloud Next \u2014 Advanced",
+    "aliases": [],
+    "family": "Marketing",
+    "persona": "CMO / VP Growth",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Multi-brand, multi-geography campaigns with no experimentation layer.",
+    "competitors": [
+      "braze",
+      "attentive",
+      "iterable",
+      "adobe campaign"
+    ],
+    "drivers": [
+      [
+        "campaign_intensity",
+        2.0
+      ],
+      [
+        "customer_volume",
+        1.8
+      ],
+      [
+        "competitor_martech",
+        1.8
+      ],
+      [
+        "b2c_reach",
+        1.8
+      ],
+      [
+        "message_volume",
+        1.5
+      ],
+      [
+        "multi_country",
+        1.4
+      ],
+      [
+        "marketing_headcount",
+        1.4
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "mc_engagement",
+    "legacyId": "mc_engagement",
+    "canonicalName": "Marketing Cloud Engagement (+ tiers)",
+    "aliases": [],
+    "family": "Marketing",
+    "persona": "VP Lifecycle / CRM Marketing",
+    "segments": [
+      "Enterprise"
+    ],
+    "legacyEdge": "Email volume past five million a month on a stack with no CRM join.",
+    "competitors": [
+      "braze",
+      "adobe campaign",
+      "responsys",
+      "cheetah digital"
+    ],
+    "drivers": [
+      [
+        "customer_volume",
+        2.4
+      ],
+      [
+        "b2c_reach",
+        2.2
+      ],
+      [
+        "campaign_intensity",
+        2.0
+      ],
+      [
+        "competitor_martech",
+        1.6
+      ],
+      [
+        "message_volume",
+        1.5
+      ],
+      [
+        "retail_industry",
+        1.4
+      ],
+      [
+        "multi_country",
+        1.4
+      ],
+      [
+        "mobile_app",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "account_engagement",
+    "legacyId": "account_engagement",
+    "canonicalName": "Marketing Cloud Account Engagement (Pardot)",
+    "aliases": [],
+    "family": "Marketing",
+    "persona": "VP Demand Generation / Marketing Ops",
+    "segments": [
+      "SMB",
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Gated content and webinars feeding a CRM with no nurture layer.",
+    "competitors": [
+      "hubspot",
+      "marketo",
+      "act-on",
+      "eloqua",
+      "6sense"
+    ],
+    "drivers": [
+      [
+        "b2b_motion",
+        2.4
+      ],
+      [
+        "existing_salesforce",
+        1.8
+      ],
+      [
+        "lead_volume",
+        1.8
+      ],
+      [
+        "customer_volume",
+        1.6
+      ],
+      [
+        "competitor_martech",
+        1.6
+      ],
+      [
+        "message_volume",
+        1.5
+      ],
+      [
+        "campaign_intensity",
+        1.4
+      ],
+      [
+        "marketing_headcount",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "personalization",
+    "legacyId": "personalization",
+    "canonicalName": "Salesforce Personalization",
+    "aliases": [],
+    "family": "Marketing",
+    "persona": "VP Digital Experience",
+    "segments": [
+      "Enterprise"
+    ],
+    "legacyEdge": "High-traffic storefront serving every visitor the same page.",
+    "competitors": [
+      "dynamic yield",
+      "optimizely",
+      "monetate",
+      "bloomreach",
+      "adobe target"
+    ],
+    "drivers": [
+      [
+        "ecommerce_likelihood",
+        2.2
+      ],
+      [
+        "web_traffic",
+        2.0
+      ],
+      [
+        "b2c_reach",
+        1.8
+      ],
+      [
+        "customer_volume",
+        1.6
+      ],
+      [
+        "message_volume",
+        1.5
+      ],
+      [
+        "competitor_martech",
+        1.5
+      ],
+      [
+        "campaign_intensity",
+        1.4
+      ],
+      [
+        "brand_consumer",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "marketing_intelligence",
+    "legacyId": "marketing_intelligence",
+    "canonicalName": "Marketing Intelligence (Datorama)",
+    "aliases": [],
+    "family": "Marketing",
+    "persona": "VP Marketing Analytics / Head of Paid Media",
+    "segments": [
+      "Enterprise"
+    ],
+    "legacyEdge": "Large paid-media spend that the CFO cannot see a return on.",
+    "competitors": [
+      "improvado",
+      "funnel.io",
+      "adverity",
+      "supermetrics"
+    ],
+    "drivers": [
+      [
+        "campaign_intensity",
+        2.2
+      ],
+      [
+        "marketing_headcount",
+        1.8
+      ],
+      [
+        "customer_volume",
+        1.6
+      ],
+      [
+        "b2c_reach",
+        1.6
+      ],
+      [
+        "message_volume",
+        1.5
+      ],
+      [
+        "competitor_martech",
+        1.5
+      ],
+      [
+        "multi_country",
+        1.4
+      ],
+      [
+        "cost_pressure",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "loyalty",
+    "legacyId": "loyalty",
+    "canonicalName": "Loyalty Management",
+    "aliases": [],
+    "family": "Marketing",
+    "persona": "VP Loyalty & CRM / CMO",
+    "segments": [
+      "Enterprise"
+    ],
+    "legacyEdge": "A points programme that can't see what the member bought yesterday.",
+    "competitors": [
+      "antavo",
+      "annex cloud",
+      "comarch",
+      "crowdtwist",
+      "sap emarsys"
+    ],
+    "drivers": [
+      [
+        "b2c_reach",
+        2.4
+      ],
+      [
+        "retail_industry",
+        2.0
+      ],
+      [
+        "customer_volume",
+        1.8
+      ],
+      [
+        "travel_industry",
+        1.8
+      ],
+      [
+        "brand_consumer",
+        1.6
+      ],
+      [
+        "message_volume",
+        1.5
+      ],
+      [
+        "competitor_martech",
+        1.5
+      ],
+      [
+        "campaign_intensity",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "commerce_b2c",
+    "legacyId": "commerce_b2c",
+    "canonicalName": "Commerce Cloud B2C",
+    "aliases": [],
+    "family": "Commerce",
+    "persona": "VP Ecommerce / Chief Digital Officer",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "A consumer brand whose storefront and CRM keep two different customer records.",
+    "competitors": [
+      "shopify plus",
+      "adobe commerce",
+      "magento",
+      "bigcommerce",
+      "commercetools",
+      "sap hybris"
+    ],
+    "drivers": [
+      [
+        "ecommerce_likelihood",
+        2.6
+      ],
+      [
+        "retail_industry",
+        2.0
+      ],
+      [
+        "b2c_reach",
+        2.0
+      ],
+      [
+        "web_traffic",
+        1.8
+      ],
+      [
+        "competitor_commerce",
+        1.8
+      ],
+      [
+        "gmv_estimate",
+        1.6
+      ],
+      [
+        "brand_consumer",
+        1.6
+      ],
+      [
+        "order_volume",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "commerce_b2b",
+    "legacyId": "commerce_b2b",
+    "canonicalName": "Commerce Cloud B2B",
+    "aliases": [],
+    "family": "Commerce",
+    "persona": "VP Digital / Head of B2B Ecommerce",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Dealers still place orders by phone, email and fax.",
+    "competitors": [
+      "sap commerce",
+      "oracle commerce",
+      "bigcommerce b2b",
+      "insite"
+    ],
+    "drivers": [
+      [
+        "distributor_motion",
+        2.4
+      ],
+      [
+        "b2b_motion",
+        2.2
+      ],
+      [
+        "manufacturing_industry",
+        1.8
+      ],
+      [
+        "gmv_estimate",
+        1.6
+      ],
+      [
+        "partner_network",
+        1.6
+      ],
+      [
+        "competitor_commerce",
+        1.5
+      ],
+      [
+        "ecommerce_likelihood",
+        1.4
+      ],
+      [
+        "order_volume",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "order_management",
+    "legacyId": "order_management",
+    "canonicalName": "Order Management (OMS)",
+    "aliases": [],
+    "family": "Commerce",
+    "persona": "VP Supply Chain / Fulfillment",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Buy-online-pickup-in-store launched without a distributed order system underneath.",
+    "competitors": [
+      "manhattan",
+      "fluent commerce",
+      "ibm sterling",
+      "narvar"
+    ],
+    "drivers": [
+      [
+        "ecommerce_likelihood",
+        2.0
+      ],
+      [
+        "multi_channel",
+        1.8
+      ],
+      [
+        "retail_industry",
+        1.8
+      ],
+      [
+        "num_sites",
+        1.8
+      ],
+      [
+        "gmv_estimate",
+        1.6
+      ],
+      [
+        "competitor_commerce",
+        1.5
+      ],
+      [
+        "order_volume",
+        1.3
+      ],
+      [
+        "web_traffic",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "platform",
+    "legacyId": "platform",
+    "canonicalName": "Salesforce Platform (low-code)",
+    "aliases": [],
+    "family": "Platform",
+    "persona": "CIO / VP Applications",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Departments buying point tools because IT has a two-year backlog.",
+    "competitors": [
+      "power apps",
+      "servicenow",
+      "appian",
+      "mendix",
+      "outsystems"
+    ],
+    "drivers": [
+      [
+        "it_headcount",
+        2.0
+      ],
+      [
+        "existing_salesforce",
+        1.8
+      ],
+      [
+        "legacy_erp",
+        1.6
+      ],
+      [
+        "multi_system",
+        1.4
+      ],
+      [
+        "integration_backlog",
+        1.3
+      ],
+      [
+        "api_program",
+        1.1
+      ],
+      [
+        "cloud_migration",
+        1.1
+      ],
+      [
+        "hiring_engineers",
+        1.0
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "experience_cloud",
+    "legacyId": "experience_cloud",
+    "canonicalName": "Experience Cloud (portals & communities)",
+    "aliases": [],
+    "family": "Platform",
+    "persona": "VP CX / Head of Partner Programs",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Partners and customers phone the call centre for what a portal should answer.",
+    "competitors": [
+      "sitecore",
+      "liferay",
+      "adobe experience manager",
+      "higher logic"
+    ],
+    "drivers": [
+      [
+        "partner_network",
+        2.2
+      ],
+      [
+        "existing_salesforce",
+        2.0
+      ],
+      [
+        "customer_volume",
+        1.8
+      ],
+      [
+        "service_intensity",
+        1.6
+      ],
+      [
+        "distributor_motion",
+        1.6
+      ],
+      [
+        "it_headcount",
+        1.4
+      ],
+      [
+        "self_service_gap",
+        1.4
+      ],
+      [
+        "multi_system",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "mulesoft",
+    "legacyId": "mulesoft",
+    "canonicalName": "MuleSoft Anypoint Platform",
+    "aliases": [],
+    "family": "Integration",
+    "persona": "CIO / VP Enterprise Architecture",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "An SAP ECC migration with a 2027 deadline and two ERPs from the last acquisition.",
+    "competitors": [
+      "boomi",
+      "informatica",
+      "tibco",
+      "webmethods",
+      "workato",
+      "apigee"
+    ],
+    "drivers": [
+      [
+        "multi_system",
+        2.6
+      ],
+      [
+        "data_fragmentation",
+        2.2
+      ],
+      [
+        "sap_ecc",
+        2.0
+      ],
+      [
+        "legacy_erp",
+        2.0
+      ],
+      [
+        "mna_activity",
+        1.8
+      ],
+      [
+        "it_headcount",
+        1.8
+      ],
+      [
+        "integration_backlog",
+        1.4
+      ],
+      [
+        "cloud_migration",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "mulesoft_composer",
+    "legacyId": "mulesoft_composer",
+    "canonicalName": "MuleSoft Composer",
+    "aliases": [],
+    "family": "Integration",
+    "persona": "Salesforce Admin / Business Systems",
+    "segments": [
+      "SMB",
+      "Mid-Market"
+    ],
+    "legacyEdge": "An admin-heavy org integrating by hand because there is no Apex talent.",
+    "competitors": [
+      "zapier",
+      "workato",
+      "tray.io"
+    ],
+    "drivers": [
+      [
+        "sap_ecc",
+        2.0
+      ],
+      [
+        "existing_salesforce",
+        2.0
+      ],
+      [
+        "multi_system",
+        1.6
+      ],
+      [
+        "mna_activity",
+        1.5
+      ],
+      [
+        "legacy_erp",
+        1.5
+      ],
+      [
+        "integration_backlog",
+        1.4
+      ],
+      [
+        "data_fragmentation",
+        1.4
+      ],
+      [
+        "api_program",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "heroku",
+    "legacyId": "heroku",
+    "canonicalName": "Heroku",
+    "aliases": [],
+    "family": "Platform",
+    "persona": "VP Engineering / CTO",
+    "segments": [
+      "SMB",
+      "Mid-Market"
+    ],
+    "legacyEdge": "RETENTION RISK: Heroku is in sustaining engineering and Enterprise is end-of-sale \u2014 detecting it means a migration decision is coming, not an expansion.",
+    "competitors": [
+      "vercel",
+      "render",
+      "fly.io",
+      "aws",
+      "netlify"
+    ],
+    "drivers": [
+      [
+        "tech_industry",
+        2.0
+      ],
+      [
+        "it_headcount",
+        1.6
+      ],
+      [
+        "hiring_engineers",
+        1.6
+      ],
+      [
+        "multi_system",
+        1.3
+      ],
+      [
+        "integration_backlog",
+        1.3
+      ],
+      [
+        "legacy_erp",
+        1.2
+      ],
+      [
+        "existing_salesforce",
+        1.2
+      ],
+      [
+        "digital_maturity",
+        1.2
+      ]
+    ],
+    "riskFlag": true,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "tableau",
+    "legacyId": "tableau",
+    "canonicalName": "Tableau Cloud",
+    "aliases": [],
+    "family": "Analytics",
+    "persona": "Head of BI / VP Data & Analytics",
+    "segments": [
+      "SMB",
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Analysts rebuilding the same board-pack by hand every month.",
+    "competitors": [
+      "power bi",
+      "looker",
+      "qlik",
+      "thoughtspot",
+      "domo",
+      "sisense"
+    ],
+    "drivers": [
+      [
+        "analyst_headcount",
+        2.4
+      ],
+      [
+        "hiring_data",
+        1.8
+      ],
+      [
+        "competitor_bi",
+        1.8
+      ],
+      [
+        "data_fragmentation",
+        1.4
+      ],
+      [
+        "snowflake_databricks",
+        1.3
+      ],
+      [
+        "digital_maturity",
+        1.2
+      ],
+      [
+        "existing_salesforce",
+        1.2
+      ],
+      [
+        "ai_initiative",
+        1.0
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "tableau_next",
+    "legacyId": "tableau_next",
+    "canonicalName": "Tableau Next",
+    "aliases": [],
+    "family": "Analytics",
+    "persona": "CDO / VP Analytics",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Data 360 in place and analysts still hand-writing SQL for every question.",
+    "competitors": [
+      "thoughtspot",
+      "power bi copilot",
+      "looker"
+    ],
+    "drivers": [
+      [
+        "data_cloud_ready",
+        2.0
+      ],
+      [
+        "analyst_headcount",
+        1.8
+      ],
+      [
+        "ai_initiative",
+        1.8
+      ],
+      [
+        "existing_salesforce",
+        1.6
+      ],
+      [
+        "hiring_data",
+        1.4
+      ],
+      [
+        "snowflake_databricks",
+        1.3
+      ],
+      [
+        "competitor_bi",
+        1.2
+      ],
+      [
+        "data_fragmentation",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "crm_analytics",
+    "legacyId": "crm_analytics",
+    "canonicalName": "CRM Analytics",
+    "aliases": [],
+    "family": "Analytics",
+    "persona": "VP Sales Ops / RevOps Director",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Dashboards live outside the CRM, so reps never look at them.",
+    "competitors": [
+      "power bi",
+      "clari",
+      "insightsquared"
+    ],
+    "drivers": [
+      [
+        "existing_salesforce",
+        2.2
+      ],
+      [
+        "sales_headcount",
+        1.6
+      ],
+      [
+        "hiring_data",
+        1.5
+      ],
+      [
+        "competitor_bi",
+        1.4
+      ],
+      [
+        "snowflake_databricks",
+        1.3
+      ],
+      [
+        "data_fragmentation",
+        1.2
+      ],
+      [
+        "deal_complexity",
+        1.2
+      ],
+      [
+        "analyst_headcount",
+        1.0
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "slack",
+    "legacyId": "slack",
+    "canonicalName": "Slack (Business+ / Enterprise+)",
+    "aliases": [],
+    "family": "Slack",
+    "persona": "CIO / Head of Workplace Technology",
+    "segments": [
+      "SMB",
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "A distributed workforce coordinating in email threads and standing meetings.",
+    "competitors": [
+      "microsoft teams",
+      "google chat",
+      "zoom team chat"
+    ],
+    "drivers": [
+      [
+        "employees",
+        2.2
+      ],
+      [
+        "distributed_workforce",
+        2.0
+      ],
+      [
+        "competitor_collab",
+        1.6
+      ],
+      [
+        "remote_share",
+        1.4
+      ],
+      [
+        "tech_industry",
+        1.4
+      ],
+      [
+        "hiring_rate",
+        1.2
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "existing_salesforce",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "slack_sales_elevate",
+    "legacyId": "slack_sales_elevate",
+    "canonicalName": "Slack Sales Elevate",
+    "aliases": [],
+    "family": "Slack",
+    "persona": "CRO / VP Sales",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Sales Cloud and Slack both deployed, and reps still swivel between them.",
+    "competitors": [
+      "gong",
+      "clari",
+      "people.ai"
+    ],
+    "drivers": [
+      [
+        "existing_salesforce",
+        2.4
+      ],
+      [
+        "fp_slack",
+        2.2
+      ],
+      [
+        "sales_headcount",
+        2.0
+      ],
+      [
+        "distributed_workforce",
+        1.6
+      ],
+      [
+        "remote_share",
+        1.4
+      ],
+      [
+        "competitor_collab",
+        1.4
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "employees",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "revenue_cpq",
+    "legacyId": "revenue_cpq",
+    "canonicalName": "Revenue Cloud CPQ",
+    "aliases": [],
+    "family": "Revenue",
+    "persona": "VP Sales Operations / Deal Desk",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Quotes take days and every discount needs three approvals.",
+    "competitors": [
+      "conga",
+      "dealhub",
+      "pros",
+      "zuora",
+      "oracle cpq"
+    ],
+    "drivers": [
+      [
+        "deal_complexity",
+        2.6
+      ],
+      [
+        "sales_headcount",
+        1.8
+      ],
+      [
+        "existing_salesforce",
+        1.8
+      ],
+      [
+        "subscription_model",
+        1.6
+      ],
+      [
+        "multi_country",
+        1.2
+      ],
+      [
+        "renewal_window_sf",
+        1.2
+      ],
+      [
+        "exec_change",
+        1.1
+      ],
+      [
+        "revenue_growth",
+        1.0
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "revenue_billing",
+    "legacyId": "revenue_billing",
+    "canonicalName": "Revenue Cloud Billing Plus",
+    "aliases": [],
+    "family": "Revenue",
+    "persona": "CFO / VP Revenue Operations",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Usage-based revenue and ASC 606 recognition still reconciled in spreadsheets.",
+    "competitors": [
+      "zuora",
+      "chargebee",
+      "netsuite arm",
+      "sap billing"
+    ],
+    "drivers": [
+      [
+        "subscription_model",
+        2.6
+      ],
+      [
+        "deal_complexity",
+        1.8
+      ],
+      [
+        "multi_country",
+        1.8
+      ],
+      [
+        "existing_salesforce",
+        1.6
+      ],
+      [
+        "revenue",
+        1.4
+      ],
+      [
+        "sales_headcount",
+        1.3
+      ],
+      [
+        "renewal_window_sf",
+        1.2
+      ],
+      [
+        "regulatory_load",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "revenue_intelligence",
+    "legacyId": "revenue_intelligence",
+    "canonicalName": "Revenue Intelligence",
+    "aliases": [],
+    "family": "Revenue",
+    "persona": "CRO / VP Sales Ops",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Forecast accuracy is a running argument between sales and finance.",
+    "competitors": [
+      "gong",
+      "chorus",
+      "clari",
+      "people.ai"
+    ],
+    "drivers": [
+      [
+        "sales_headcount",
+        2.2
+      ],
+      [
+        "existing_salesforce",
+        2.0
+      ],
+      [
+        "subscription_model",
+        1.5
+      ],
+      [
+        "exec_change",
+        1.4
+      ],
+      [
+        "revenue_growth",
+        1.2
+      ],
+      [
+        "renewal_window_sf",
+        1.2
+      ],
+      [
+        "multi_country",
+        1.1
+      ],
+      [
+        "deal_complexity",
+        1.0
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "sales_engagement",
+    "legacyId": "sales_engagement",
+    "canonicalName": "Sales Engagement (cadences)",
+    "aliases": [],
+    "family": "Revenue",
+    "persona": "VP Sales Development",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "An SDR team past ten reps running sequences in a separate tool.",
+    "competitors": [
+      "outreach",
+      "salesloft",
+      "apollo",
+      "groove"
+    ],
+    "drivers": [
+      [
+        "sales_headcount",
+        2.0
+      ],
+      [
+        "existing_salesforce",
+        1.8
+      ],
+      [
+        "hiring_sales",
+        1.8
+      ],
+      [
+        "deal_complexity",
+        1.6
+      ],
+      [
+        "lead_volume",
+        1.6
+      ],
+      [
+        "subscription_model",
+        1.5
+      ],
+      [
+        "renewal_window_sf",
+        1.2
+      ],
+      [
+        "b2b_motion",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "salesforce_maps",
+    "legacyId": "salesforce_maps",
+    "canonicalName": "Salesforce Maps",
+    "aliases": [],
+    "family": "Revenue",
+    "persona": "VP Field Sales",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Field reps planning their own routes and territories in a spreadsheet.",
+    "competitors": [
+      "badger maps",
+      "spotio",
+      "mapanything"
+    ],
+    "drivers": [
+      [
+        "field_headcount",
+        2.2
+      ],
+      [
+        "cpg_industry",
+        1.8
+      ],
+      [
+        "deal_complexity",
+        1.6
+      ],
+      [
+        "existing_salesforce",
+        1.6
+      ],
+      [
+        "subscription_model",
+        1.5
+      ],
+      [
+        "health_industry",
+        1.4
+      ],
+      [
+        "num_sites",
+        1.4
+      ],
+      [
+        "sales_headcount",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "field_service",
+    "legacyId": "field_service",
+    "canonicalName": "Salesforce Field Service",
+    "aliases": [],
+    "family": "Service",
+    "persona": "VP Field Operations / COO",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Technicians dispatched from a whiteboard and paper work orders.",
+    "competitors": [
+      "servicemax",
+      "servicetitan",
+      "ifs",
+      "praxedo",
+      "servicenow fsm"
+    ],
+    "drivers": [
+      [
+        "field_headcount",
+        2.6
+      ],
+      [
+        "field_industry",
+        2.2
+      ],
+      [
+        "service_intensity",
+        1.4
+      ],
+      [
+        "competitor_helpdesk",
+        1.4
+      ],
+      [
+        "rfp_active",
+        1.4
+      ],
+      [
+        "existing_salesforce",
+        1.4
+      ],
+      [
+        "self_service_gap",
+        1.3
+      ],
+      [
+        "automation_pressure",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "service_voice",
+    "legacyId": "service_voice",
+    "canonicalName": "Service Cloud Voice",
+    "aliases": [],
+    "family": "Service",
+    "persona": "VP Contact Centre",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "The phone system and the CRM are two different screens for the same call.",
+    "competitors": [
+      "genesys",
+      "five9",
+      "nice incontact",
+      "avaya",
+      "talkdesk"
+    ],
+    "drivers": [
+      [
+        "service_headcount",
+        2.2
+      ],
+      [
+        "existing_salesforce",
+        2.0
+      ],
+      [
+        "service_intensity",
+        1.4
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "competitor_helpdesk",
+        1.4
+      ],
+      [
+        "rfp_active",
+        1.4
+      ],
+      [
+        "self_service_gap",
+        1.3
+      ],
+      [
+        "automation_pressure",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "digital_engagement",
+    "legacyId": "digital_engagement",
+    "canonicalName": "Digital Engagement (WhatsApp/SMS)",
+    "aliases": [],
+    "family": "Service",
+    "persona": "Head of Digital Customer Service",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Customers message on WhatsApp; agents answer in a separate console.",
+    "competitors": [
+      "twilio",
+      "sinch",
+      "gupshup"
+    ],
+    "drivers": [
+      [
+        "service_headcount",
+        1.8
+      ],
+      [
+        "b2c_reach",
+        1.8
+      ],
+      [
+        "existing_salesforce",
+        1.6
+      ],
+      [
+        "multi_country",
+        1.6
+      ],
+      [
+        "service_intensity",
+        1.4
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "competitor_helpdesk",
+        1.4
+      ],
+      [
+        "rfp_active",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "shield",
+    "legacyId": "shield",
+    "canonicalName": "Salesforce Shield",
+    "aliases": [],
+    "family": "Security & Governance",
+    "persona": "CISO / Chief Compliance Officer",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Every Agentforce deployment reopens the question of who audits what the agent did.",
+    "competitors": [
+      "own company",
+      "odaseva",
+      "native controls"
+    ],
+    "drivers": [
+      [
+        "regulatory_load",
+        2.4
+      ],
+      [
+        "existing_salesforce",
+        2.4
+      ],
+      [
+        "privacy_incident",
+        1.6
+      ],
+      [
+        "current_sf_spend",
+        1.6
+      ],
+      [
+        "fs_industry",
+        1.6
+      ],
+      [
+        "health_industry",
+        1.6
+      ],
+      [
+        "renewal_window_sf",
+        1.4
+      ],
+      [
+        "ai_initiative",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "privacy_center",
+    "legacyId": "privacy_center",
+    "canonicalName": "Customer 360 Privacy Center",
+    "aliases": [],
+    "family": "Security & Governance",
+    "persona": "Chief Privacy Officer / DPO",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Subject-access requests handled manually against a contractual SLA.",
+    "competitors": [
+      "onetrust",
+      "trustarc",
+      "securiti"
+    ],
+    "drivers": [
+      [
+        "regulatory_load",
+        2.2
+      ],
+      [
+        "existing_salesforce",
+        2.2
+      ],
+      [
+        "data_residency",
+        1.8
+      ],
+      [
+        "multi_country",
+        1.8
+      ],
+      [
+        "current_sf_spend",
+        1.6
+      ],
+      [
+        "privacy_incident",
+        1.4
+      ],
+      [
+        "renewal_window_sf",
+        1.4
+      ],
+      [
+        "customer_volume",
+        1.4
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "backup",
+    "legacyId": "backup",
+    "canonicalName": "Salesforce Backup",
+    "aliases": [],
+    "family": "Security & Governance",
+    "persona": "VP IT Operations / CISO",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "No native restore path after the last accidental mass-delete.",
+    "competitors": [
+      "own company",
+      "gearset",
+      "odaseva",
+      "veeam",
+      "druva"
+    ],
+    "drivers": [
+      [
+        "existing_salesforce",
+        2.4
+      ],
+      [
+        "regulatory_load",
+        1.6
+      ],
+      [
+        "current_sf_spend",
+        1.6
+      ],
+      [
+        "data_residency",
+        1.5
+      ],
+      [
+        "privacy_incident",
+        1.4
+      ],
+      [
+        "renewal_window_sf",
+        1.4
+      ],
+      [
+        "employees",
+        1.2
+      ],
+      [
+        "multi_country",
+        1.1
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "financial_services_cloud",
+    "legacyId": "financial_services_cloud",
+    "canonicalName": "Financial Services Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "SVP Digital Banking / COO Wealth",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Advisers working from a CRM that was never built for regulated relationships.",
+    "competitors": [
+      "ncino",
+      "dynamics fs",
+      "temenos",
+      "backbase",
+      "q2"
+    ],
+    "drivers": [
+      [
+        "fs_industry",
+        3.0
+      ],
+      [
+        "regulatory_load",
+        1.8
+      ],
+      [
+        "mna_activity",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "exec_change",
+        1.4
+      ],
+      [
+        "competitor_crm",
+        1.4
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "health_cloud",
+    "legacyId": "health_cloud",
+    "canonicalName": "Health Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP Patient Access / VP Member Experience",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "CMS-0057-F requires four FHIR APIs live by January 2027 \u2014 the remediation window is now.",
+    "competitors": [
+      "epic",
+      "oracle health",
+      "microsoft cloud for healthcare",
+      "innovaccer"
+    ],
+    "drivers": [
+      [
+        "health_industry",
+        3.0
+      ],
+      [
+        "regulatory_load",
+        2.0
+      ],
+      [
+        "service_intensity",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "exec_change",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "life_sciences_cloud",
+    "legacyId": "life_sciences_cloud",
+    "canonicalName": "Life Sciences Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP Commercial / Clinical Operations",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Veeva's CRM migration deadline forces a platform decision that was never really made.",
+    "competitors": [
+      "veeva",
+      "iqvia",
+      "aktana"
+    ],
+    "drivers": [
+      [
+        "health_industry",
+        2.6
+      ],
+      [
+        "regulatory_load",
+        2.0
+      ],
+      [
+        "field_headcount",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "exec_change",
+        1.2
+      ],
+      [
+        "existing_salesforce",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "manufacturing_cloud",
+    "legacyId": "manufacturing_cloud",
+    "canonicalName": "Manufacturing Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP Commercial Operations",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Long-term agreements and rebates forecast in Excel against an ECC deadline.",
+    "competitors": [
+      "sap",
+      "oracle",
+      "dynamics",
+      "vistex"
+    ],
+    "drivers": [
+      [
+        "manufacturing_industry",
+        3.0
+      ],
+      [
+        "distributor_motion",
+        1.8
+      ],
+      [
+        "legacy_erp",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "deal_complexity",
+        1.4
+      ],
+      [
+        "partner_network",
+        1.4
+      ],
+      [
+        "regulatory_load",
+        1.3
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "consumer_goods_cloud",
+    "legacyId": "consumer_goods_cloud",
+    "canonicalName": "Consumer Goods Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP Field Sales / Trade Marketing",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Merchandisers still capture store visits on paper and photos.",
+    "competitors": [
+      "pepperi",
+      "repsly",
+      "exceedra",
+      "vistex"
+    ],
+    "drivers": [
+      [
+        "cpg_industry",
+        2.8
+      ],
+      [
+        "field_headcount",
+        2.2
+      ],
+      [
+        "retail_industry",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "distributor_motion",
+        1.4
+      ],
+      [
+        "regulatory_load",
+        1.3
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "automotive_cloud",
+    "legacyId": "automotive_cloud",
+    "canonicalName": "Automotive Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP Customer Experience / Dealer Group COO",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Dealer roll-ups leave one customer with three different records.",
+    "competitors": [
+      "cdk",
+      "reynolds",
+      "dynamics"
+    ],
+    "drivers": [
+      [
+        "automotive_industry",
+        3.0
+      ],
+      [
+        "partner_network",
+        1.8
+      ],
+      [
+        "distributor_motion",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "mna_activity",
+        1.4
+      ],
+      [
+        "regulatory_load",
+        1.3
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "communications_cloud",
+    "legacyId": "communications_cloud",
+    "canonicalName": "Communications Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP BSS Transformation",
+    "segments": [
+      "Enterprise"
+    ],
+    "legacyEdge": "A fibre or MVNO launch on a BSS stack that predates the product.",
+    "competitors": [
+      "amdocs",
+      "netcracker",
+      "vlocity legacy"
+    ],
+    "drivers": [
+      [
+        "comms_industry",
+        3.0
+      ],
+      [
+        "customer_volume",
+        1.8
+      ],
+      [
+        "deal_complexity",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "legacy_erp",
+        1.4
+      ],
+      [
+        "regulatory_load",
+        1.3
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "media_cloud",
+    "legacyId": "media_cloud",
+    "canonicalName": "Media Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "SVP Ad Sales Operations",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Ad sales orders managed in a system nobody has upgraded since linear TV.",
+    "competitors": [
+      "operative",
+      "wideorbit",
+      "boostr"
+    ],
+    "drivers": [
+      [
+        "media_industry",
+        3.0
+      ],
+      [
+        "deal_complexity",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "sales_headcount",
+        1.4
+      ],
+      [
+        "regulatory_load",
+        1.3
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "energy_utilities_cloud",
+    "legacyId": "energy_utilities_cloud",
+    "canonicalName": "Energy & Utilities Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP Customer Operations",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "A rate case that funds customer-systems capex, and a CIS that is end-of-life.",
+    "competitors": [
+      "oracle cc&b",
+      "sap is-u",
+      "itron"
+    ],
+    "drivers": [
+      [
+        "energy_industry",
+        3.0
+      ],
+      [
+        "customer_volume",
+        2.0
+      ],
+      [
+        "regulatory_load",
+        1.8
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "field_headcount",
+        1.4
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "exec_change",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "public_sector",
+    "legacyId": "public_sector",
+    "canonicalName": "Public Sector Solutions",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "Agency CIO / Program Director",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "A legislated program with a statutory go-live date and a mainframe behind it.",
+    "competitors": [
+      "tyler technologies",
+      "accela",
+      "servicenow",
+      "microsoft"
+    ],
+    "drivers": [
+      [
+        "public_industry",
+        3.0
+      ],
+      [
+        "regulatory_load",
+        1.8
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "exec_change",
+        1.2
+      ],
+      [
+        "existing_salesforce",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "education_cloud",
+    "legacyId": "education_cloud",
+    "canonicalName": "Education Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "VP Enrollment / Chief Advancement Officer",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "Recruitment, enrolment and alumni giving in three systems that never reconcile.",
+    "competitors": [
+      "slate",
+      "ellucian",
+      "anthology",
+      "targetx"
+    ],
+    "drivers": [
+      [
+        "education_industry",
+        3.0
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "customer_volume",
+        1.4
+      ],
+      [
+        "regulatory_load",
+        1.3
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "exec_change",
+        1.2
+      ],
+      [
+        "existing_salesforce",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "nonprofit_cloud",
+    "legacyId": "nonprofit_cloud",
+    "canonicalName": "Nonprofit Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "Chief Development Officer",
+    "segments": [
+      "SMB",
+      "Mid-Market"
+    ],
+    "legacyEdge": "Still on legacy NPSP, where none of the new product work ships.",
+    "competitors": [
+      "blackbaud",
+      "raiser's edge",
+      "bloomerang",
+      "donorperfect"
+    ],
+    "drivers": [
+      [
+        "nonprofit_industry",
+        3.0
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "regulatory_load",
+        1.3
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ],
+      [
+        "customer_volume",
+        1.2
+      ],
+      [
+        "mna_activity",
+        1.2
+      ],
+      [
+        "exec_change",
+        1.2
+      ],
+      [
+        "existing_salesforce",
+        1.2
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  },
+  {
+    "id": "net_zero_cloud",
+    "legacyId": "net_zero_cloud",
+    "canonicalName": "Net Zero Cloud",
+    "aliases": [],
+    "family": "Industries",
+    "persona": "Chief Sustainability Officer / Director ESG",
+    "segments": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "legacyEdge": "California SB 253 and CSRD turned the sustainability report into a filing deadline.",
+    "competitors": [
+      "watershed",
+      "persefoni",
+      "sphera",
+      "sap sustainability"
+    ],
+    "drivers": [
+      [
+        "esg_pressure",
+        2.8
+      ],
+      [
+        "regulatory_load",
+        1.8
+      ],
+      [
+        "multi_country",
+        1.6
+      ],
+      [
+        "revenue",
+        1.6
+      ],
+      [
+        "rfp_active",
+        1.5
+      ],
+      [
+        "energy_industry",
+        1.4
+      ],
+      [
+        "is_public",
+        1.4
+      ],
+      [
+        "contract_renewal_window",
+        1.3
+      ]
+    ],
+    "riskFlag": false,
+    "capabilities": [],
+    "prerequisites": [],
+    "officialUrl": "",
+    "verified": false
+  }
+]

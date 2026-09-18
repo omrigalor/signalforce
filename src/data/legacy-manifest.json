@@ -1,0 +1,8 @@
+{
+  "productCount": 53,
+  "driverCount": 94,
+  "sourceName": "Salesforce Pipeline Intelligence.html",
+  "sha256": "d142394e8b77f6c05468a182095ab4bf99a18a15b9fb61e60e674181428fb324",
+  "importedAt": "2026-09-16",
+  "note": "Registry and driver weights imported. Account scores and prices are not inferred or migrated."
+}

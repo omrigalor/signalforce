@@ -1,0 +1,15 @@
+import {z} from 'zod';
+export const productSchema=z.object({id:z.string(),legacyId:z.string(),canonicalName:z.string(),aliases:z.array(z.string()),family:z.string(),persona:z.string(),segments:z.array(z.string()),legacyEdge:z.string(),competitors:z.array(z.string()),drivers:z.array(z.tuple([z.string(),z.number()])),riskFlag:z.boolean(),capabilities:z.array(z.string()),prerequisites:z.array(z.string()),officialUrl:z.string(),verified:z.boolean()});
+export type Product=z.infer<typeof productSchema>;
+export const personaSchema=z.object({id:z.string(),name:z.string(),short:z.string(),titles:z.array(z.string()),mandate:z.string(),metrics:z.array(z.string()),language:z.string(),avoid:z.string(),objections:z.array(z.string()),partners:z.array(z.string()),questions:z.array(z.string())});
+export type Persona=z.infer<typeof personaSchema>;
+export const playSchema=z.object({id:z.string(),title:z.string(),short:z.string(),description:z.string(),personaId:z.string(),partnerIds:z.array(z.string()),signalPrompts:z.array(z.object({label:z.string(),source:z.string(),verify:z.string()})),hypothesis:z.string(),problem:z.string(),metrics:z.array(z.string()),motion:z.string(),productIds:z.array(z.string()),prerequisites:z.array(z.string()),counter:z.array(z.string()),opener:z.string(),discovery:z.array(z.string()),objection:z.string(),ask:z.string(),proofIds:z.array(z.string())});
+export type Play=z.infer<typeof playSchema>;
+export const companySchema=z.object({id:z.string(),name:z.string(),short:z.string(),sector:z.string(),description:z.string(),context:z.string(),color:z.string(),playIds:z.array(z.string()),watchOut:z.string()});
+export type CompanyType=z.infer<typeof companySchema>;
+export const proofSchema=z.object({id:z.string(),customer:z.string(),title:z.string(),url:z.url(),publisher:z.string(),retrievedAt:z.string(),publishedAt:z.string().nullable(),excerpt:z.string(),summary:z.string(),outcomes:z.array(z.string()),productIds:z.array(z.string()),playIds:z.array(z.string()),limit:z.string()});
+export type Proof=z.infer<typeof proofSchema>;
+export type GraphKind='signal'|'why'|'problem'|'persona'|'motion'|'product'|'proof'|'action'|'metric'|'partner';
+export type GuideNode={id:string;kind:GraphKind;label:string;detail:string;status:'Validate'|'Hypothesis'|'Guidance'|'Published proof'|'Evidence gap';referenceId?:string};
+export type GuideEdge={id:string;source:string;target:string;relation:string;reason:string};
+export type SavedPlay={playId:string;companyId:string;note:string;updatedAt:string;stage:string;checks:string[]};

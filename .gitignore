@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-server/
+test-results/
+playwright-report/
+tsconfig.tsbuildinfo
+*.log
+.DS_Store
+credentials.json

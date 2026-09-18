@@ -1,0 +1,566 @@
+[
+  {
+    "id": "ad_spend",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "ai_exec_hire",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "ai_initiative",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "analyst_headcount",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "api_program",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "automation_pressure",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "automotive_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "b2b_motion",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "b2c_reach",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "brand_consumer",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "campaign_intensity",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "cdp_present",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "cloud_migration",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "comms_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "competitor_bi",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "competitor_collab",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "competitor_commerce",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "competitor_crm",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "competitor_helpdesk",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "competitor_martech",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "contract_renewal_window",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "cost_pressure",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "cpg_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "crm_absent",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "current_sf_spend",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "customer_volume",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "data_cloud_ready",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "data_fragmentation",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "data_residency",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "deal_complexity",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "digital_maturity",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "distributed_workforce",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "distributor_motion",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "ecommerce_likelihood",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "education_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "employee_growth",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "employees",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "energy_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "esg_pressure",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "exec_change",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "existing_salesforce",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "field_headcount",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "field_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "foundations_enabled",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "fp_slack",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "fs_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "funding_recent",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "gmv_estimate",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "health_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "hiring_ai",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "hiring_crm_admin",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "hiring_data",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "hiring_engineers",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "hiring_rate",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "hiring_sales",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "hiring_support",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "integration_backlog",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "is_public",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "it_headcount",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "lead_volume",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "legacy_erp",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "manufacturing_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "marketing_headcount",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "media_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "message_volume",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "mna_activity",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "mobile_app",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "multi_channel",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "multi_country",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "multi_system",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "nonprofit_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "nps_pressure",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "num_sites",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "order_volume",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "partner_network",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "privacy_incident",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "public_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "regulatory_load",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "remote_share",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "renewal_window_sf",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "retail_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "revenue",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "revenue_growth",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "rfp_active",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "sales_headcount",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "sap_ecc",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "self_service_gap",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "service_headcount",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "service_intensity",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "snowflake_databricks",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "subscription_model",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "tech_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "travel_industry",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  },
+  {
+    "id": "web_traffic",
+    "classification": "enriched",
+    "evidenceRequired": true,
+    "method": "Imported vocabulary; classification requires source review"
+  }
+]
